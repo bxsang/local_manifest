@@ -11,7 +11,10 @@
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-          
+         
+        <!-- Legacy sepolicy_vndr -->
+        <project path="device/qcom/sepolicy_vndr-legacy-um" name="Evolution-X/device_qcom_sepolicy_vndr-legacy-um" remote="github" revision="tiramisu" />
+        
         <!-- qcom-sepolicy -->
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="lineage-20.0" remote="github" />
