@@ -4,7 +4,7 @@
         <remote name="gitlab" fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="tiramisu" />
+        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="p-404" />
         <project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="thirteen" />
         <project path="device/xiaomi/sm6225-common" name="alternoegraha/device_xiaomi_sm6225-common" remote="github" revision="tiramisu" />
         <project path="vendor/xiaomi/sm6225-common" name="alternoegraha/vendor_xiaomi_sm6225-common" remote="github" revision="thirteen" />
