@@ -2,7 +2,7 @@
 <manifest>
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="aosp" />
+        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="pe-thirteen" />
         <project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="thirteen" />
         <project path="device/xiaomi/sm6225-common" name="alternoegraha/device_xiaomi_sm6225-common" remote="github" revision="tiramisu" />
         <project path="vendor/xiaomi/sm6225-common" name="alternoegraha/vendor_xiaomi_sm6225-common" remote="github" revision="thirteen" />
