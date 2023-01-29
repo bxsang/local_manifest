@@ -9,14 +9,10 @@
         <project path="kernel/xiaomi/sm6225-common" name="dblenk-project/kernel_xiaomi_sm6225-common_header" remote="github" revision="lineage-19.1" />
         
         <!-- hardware/xiaomi -->
-        <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="github" revision="topaz" />
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-
-        <!-- vendor/aospa -->
-        <remove-project name="android_vendor_aospa" />
-        <project path="vendor/aospa" name="alternoegraha/android_vendor_aospa" revision="topaz" remote="github" />
         
 </manifest>
