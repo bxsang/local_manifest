@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
         <remote name="github" fetch="https://github.com" />
         <remote name="gitlab" fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="evolution-new" />
+        <project path="device/xiaomi/fog" name="bxsang/device_xiaomi_fog" remote="github" revision="evolution-new" />
         <project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="thirteen" />
         <project path="device/xiaomi/sm6225-common" name="alternoegraha/device_xiaomi_sm6225-common" remote="github" revision="evolution-new" />
         <project path="vendor/xiaomi/sm6225-common" name="alternoegraha/vendor_xiaomi_sm6225-common" remote="github" revision="thirteen" />
@@ -13,9 +12,8 @@
 
         <!-- Clang -->  
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-          
+
         <!-- qcom-sepolicy -->
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="lineage-20.0" remote="github" />
-          
 </manifest>
